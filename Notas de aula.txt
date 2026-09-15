@@ -23,3 +23,8 @@ git add nome_arquivo.extesão
 git add . -> selecionar todos os arquivos
 
 Untracked -> Added
+
+-- Realizar o commit
+git commit -m "a mensagem a ser informada no commit"
+
+
