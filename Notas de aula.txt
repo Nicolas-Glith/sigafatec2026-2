@@ -27,4 +27,18 @@ Untracked -> Added
 -- Realizar o commit
 git commit -m "a mensagem a ser informada no commit"
 
+-- historico de commits
+git log
 
+-- exibir informações de um commit
+git show id_commit
+
+-- Criando uma branch principal
+git branch -M nome_branch
+
+-- Definindo a origem do repositório
+git remote add origin https://link.com.br 
+
+-- Na primeira vez ao executar esse comando, será solicitado a autenticação do GitHub
+-- Logo depois é realizado o push ao repo da origem
+git push -u origin main
