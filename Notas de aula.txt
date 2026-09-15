@@ -1,0 +1,25 @@
+git config user.name -> recupera o nome do usuario
+git config user.email -> recupera o email do usuario
+
+git config --list -> listar todas as propriedadese E mostrar o user/email
+
+-- Definindo usuario e email
+git config --global user.name "nome usuario"
+git config --global user.email aluno@email.com.br
+
+-- Apagando usuario e email
+git config --global unset user.email
+git config --global unset user.name
+
+
+-- Criando um repo no git
+git init
+
+- Obter informação de arquivos e do repositório
+git status
+
+-- Selecionar arquivos para entrar no commit
+git add nome_arquivo.extesão
+git add . -> selecionar todos os arquivos
+
+Untracked -> Added
