@@ -52,3 +52,11 @@ git pull origin nome-branch
 
 -- mesclagem de branchs
 git merge nome-branch
+-- Listando branchs
+git branch
+
+-- Criando Branch
+git checkout -b nome-branch
+
+-- Selecionando branch
+git checkout nome-branch
