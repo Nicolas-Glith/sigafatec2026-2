@@ -42,3 +42,12 @@ git remote add origin https://link.com.br
 -- Na primeira vez ao executar esse comando, será solicitado a autenticação do GitHub
 -- Logo depois é realizado o push ao repo da origem
 git push -u origin main
+
+-- Listando branchs
+git branch
+
+-- Criando Branch
+git checkout -b nome-branch
+
+-- Selecionando branch
+git checkout nome-branch
