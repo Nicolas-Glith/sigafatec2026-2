@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 @Entity 
@@ -13,7 +15,12 @@ public class Aluno {
     private Long id;
     
     @NotNull 
-    private String nome, email;
+    @NotBlank(message="O nome é obrigatório")
+    private String nome;
+    @NotNull 
+    @NotBlank(message="O email é obrigatório")
+    @Email(message="O formatodo email está invalido") 
+    private String email;
 
 
     public Aluno(String email, String nome) {
